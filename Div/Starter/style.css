@@ -1,0 +1,13 @@
+div {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: .25rem;
+    margin: .25rem;
+}
+
+p {
+    border: 1px solid black;
+    padding: .25rem;
+    margin: .25rem;
+    background-color: lightsalmon;
+}
