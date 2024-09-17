@@ -1,0 +1,32 @@
+table {
+    border: 1px solid;
+    width: 75%;
+}
+
+
+td {
+    border: 1px solid;
+   
+}
+
+
+.bigger {
+    width: 400px;
+}
+
+
+.targetHover1 {
+    background-color: burlywood;
+}
+
+.targetHover1:hover {
+    background-color:rgb(57, 166, 79);
+}
+
+.targetHover2 {
+    background-color: burlywood;
+}
+
+.targetHover2:hover {
+    background-color:darkslateblue;
+}
