@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: aqua;
+    padding: 20px;
+}
+
+header {
+    background-color: chocolate;
+}
+
+nav {
+    background-color: crimson;
+}
+
+main {
+    background-color: darkgreen;
+    padding: 10px;
+}
+section {
+    background-color: hotpink;
+    padding:10px;
+}
+article {
+    background-color: darkorchid;
+    margin: 10px;
+}
+
+aside {
+    background-color: blanchedalmond;
+}
+
+footer {
+    background-color: mediumblue;
+}
