@@ -1,0 +1,89 @@
+/* ------------ GENERAL PAGE ------------ */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: aqua;
+    /*padding: 20px; */
+}
+/* ------------ End General ------------*/
+
+/* ------------ HEADER ------------ */
+header {
+    background-color: chocolate;
+    background-image: url("images/header2.jpg");
+    height: 400px; /* sets height of image */
+    background-size:cover; /* covers all width of page */
+    background-repeat: no-repeat; /* removes repeat horz and vert */
+}
+
+/* ------------ NAVIGATION ------------ */
+nav {
+    background-color: crimson;
+    margin: 0px;    
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+nav li:first-child {
+    background-color: beige;
+}
+nav li:last-child {
+    background-color:chartreuse;
+}
+
+nav li:nth-child(3) {
+    background-color:lightcoral;
+}
+
+nav li:hover {
+    background-color: darkgoldenrod;
+}
+
+/* ------------ end nav ------------ */
+/* ------------ end header ------------*/
+
+/*------------ MAIN WEB CONTENT ------------ */
+main {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+/* ------------ SECTION ------------*/
+section {
+    background-color: hotpink;
+    padding:10px;
+}
+/*------------ ARTICLES ------------ */
+article {
+    background-color: darkorchid;
+    margin: 10px;
+}
+
+/* ------------ end articles ------------ */
+/* ------------ end section ------------ */
+
+/* ------------ ASIDE ------------ */
+aside {
+    background-color: blanchedalmond;
+}
+/*------------ end aside ------------ */
+/* ------------ end main content ------------ */
+
+/*------------ FOOTER ------------ */
+footer {
+    background-color: mediumblue;
+}
+
+/* ------------ end footer ------------ */
