@@ -1,0 +1,10 @@
+img {
+    width: 300px;
+    margin:auto;
+    margin-top: 20px;
+
+    transition: transform 2s;
+}
+.top-space{
+    padding: 100px 0px;
+}

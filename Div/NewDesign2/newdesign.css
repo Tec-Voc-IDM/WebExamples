@@ -14,7 +14,7 @@ body {
 header {
     background-color: chocolate;
     background-image: url("images/header2.jpg");
-    height: 400px; /* sets height of image */
+    height: 200px; /* sets height of image */
     background-size:cover; /* covers all width of page */
     background-repeat: no-repeat; /* removes repeat horz and vert */
 }
@@ -63,12 +63,37 @@ main {
 /* ------------ SECTION ------------*/
 section {
     background-color: hotpink;
-    padding:10px;
+    /*padding:10px;*/
+    display: flex;
+    justify-content: space-around;
+    
 }
 /*------------ ARTICLES ------------ */
 article {
     background-color: darkorchid;
     margin: 10px;
+    width:33%;
+    padding: 10px;
+}
+
+article img {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.article1 img {
+    width:150px;
+
+}
+
+.article2 img {
+    width:100px;
+    float: right;
+}
+
+.article3 img {
+    width:200px;
+    align-self: center;
 }
 
 /* ------------ end articles ------------ */
