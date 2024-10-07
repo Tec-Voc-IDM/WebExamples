@@ -6,3 +6,16 @@
     font-family: "Honk", system-ui;
     font-size: 100px;
 }
+
+
+.material-symbols-outlined.size-20 {
+  font-size: 20px;
+}
+
+.material-symbols-outlined.size-40 {
+    font-size: 40px;
+}
+
+.material-symbols-outlined.size-60 {
+    font-size: 60px;
+}
